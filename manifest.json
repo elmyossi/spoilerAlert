@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "spoiler",
+  "description": "spoiler",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://9gag.com/*"],
+      "css":        ["css-for-modal.css"],
+      "js": ["background.js"]
+    }
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+
+   "permissions": [
+    "storage",
+   "activeTab",
+   "http://*/*",
+    "https://*/*"  
+   ]
+
+}
+
+

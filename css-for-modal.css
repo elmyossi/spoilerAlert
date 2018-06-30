@@ -1,0 +1,109 @@
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 4; /* Sit on top */
+    left: 0;
+    top: 0;
+    /*width: 100%; *//* Full width */
+    /*height: 100%;*/ /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+.main-modal {
+    top: 60px;
+    z-index: 4; /* Sit on top */
+    position: fixed;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    /*border: 1px solid #888;*/
+    width: 35%;
+    height: 8%; 
+    left: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+.close {
+    color: white;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 10px 16px;
+    background-color: black;
+    color: white;
+}
+
+.modal-content {
+    font : 20px Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    /*font-size: large;*/
+    text-align : center;
+    align-items : center;
+    padding: 80px 16px;
+    background-color: #D3D3D3
+;
+}
+
+#label{
+    font : 15px Arial,Helvetica,sans-serif;
+
+}
+#select {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-footer {
+    padding: 20px 16px;
+    background-color: black ;
+    color: white;
+    text-align: center
+}
+
+
+#cancel {
+  margin-right: 80px;
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;   
+  text-decoration: none;
+  outline: white;
+  color: #fff;
+  background-color: #09f;
+  border: none;
+  border-radius: 15px;
+}
+
+#cancel:hover {background-color: #00aced}
+
+
+#okbtn {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;   
+  text-decoration: none;
+  outline: white;
+  color: #fff;
+  background-color: #09f;
+  border: none;
+  border-radius: 15px;
+}
+
+#okbtn:hover {background-color: #00aced}
